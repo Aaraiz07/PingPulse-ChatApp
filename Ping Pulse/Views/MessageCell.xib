@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReusableCell" rowHeight="224" id="KGk-i7-Jjw" customClass="MessageCell" customModule="Flash_Chat_iOS13" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="357" height="224"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="357" height="224"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="IlD-uJ-MDI">
+                        <rect key="frame" x="10" y="10" width="337" height="204"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="png-transparent-female-avatar-girl-face-woman-user-flat-classy-users-icon" translatesAutoresizingMaskIntoConstraints="NO" id="6iO-Oy-Kfe">
+                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="pF2-pV-ppD"/>
+                                    <constraint firstAttribute="height" constant="40" id="vK7-Yf-ydE"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mO6-vr-uBn">
+                                <rect key="frame" x="60" y="0.0" width="217" height="81"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a really really long text and it wont fit in one line" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1r-hv-r3c">
+                                        <rect key="frame" x="10" y="10" width="197" height="61"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="MyLightBlue"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="MyNavy"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="T1r-hv-r3c" secondAttribute="trailing" constant="10" id="ZIK-wM-N97"/>
+                                    <constraint firstItem="T1r-hv-r3c" firstAttribute="leading" secondItem="mO6-vr-uBn" secondAttribute="leading" constant="10" id="bCq-L2-ORw"/>
+                                    <constraint firstItem="T1r-hv-r3c" firstAttribute="top" secondItem="mO6-vr-uBn" secondAttribute="top" constant="10" id="nZE-Ky-Gko"/>
+                                    <constraint firstAttribute="bottom" secondItem="T1r-hv-r3c" secondAttribute="bottom" constant="10" id="vPN-9a-bFS"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="147144" translatesAutoresizingMaskIntoConstraints="NO" id="qU7-MJ-uTE">
+                                <rect key="frame" x="297" y="0.0" width="40" height="40"/>
+                                <color key="tintColor" name="MyBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="aXP-N8-HL7"/>
+                                    <constraint firstAttribute="height" constant="40" id="xxT-PC-EJ4"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="IlD-uJ-MDI" secondAttribute="trailing" constant="10" id="95w-K3-F4T"/>
+                    <constraint firstAttribute="bottom" secondItem="IlD-uJ-MDI" secondAttribute="bottom" constant="10" id="MX4-2R-v0N"/>
+                    <constraint firstItem="IlD-uJ-MDI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="QDF-0d-6LA"/>
+                    <constraint firstItem="IlD-uJ-MDI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="wf9-AY-dZ8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="label" destination="T1r-hv-r3c" id="H4V-Au-x8a"/>
+                <outlet property="leftImageView" destination="6iO-Oy-Kfe" id="qXX-Gn-zao"/>
+                <outlet property="messageBubble" destination="mO6-vr-uBn" id="TaF-g2-Kkt"/>
+                <outlet property="rightImageView" destination="qU7-MJ-uTE" id="Wyl-uS-VQt"/>
+            </connections>
+            <point key="canvasLocation" x="220.61068702290075" y="85.211267605633807"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="147144" width="512" height="512"/>
+        <image name="png-transparent-female-avatar-girl-face-woman-user-flat-classy-users-icon" width="512" height="512"/>
+        <namedColor name="MyBlue">
+            <color red="0.0" green="0.62300002574920654" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="MyLightBlue">
+            <color red="0.87000000476837158" green="1" blue="0.95899999141693115" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="MyNavy">
+            <color red="0.0" green="0.15299999713897705" blue="0.26100000739097595" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

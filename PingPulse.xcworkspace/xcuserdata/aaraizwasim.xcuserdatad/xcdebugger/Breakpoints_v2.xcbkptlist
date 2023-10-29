@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4A61068F-97A7-4F0A-A751-D6E3EA77D917"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "592DE637-6C7D-4568-B073-853FD10F3567"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flash Chat iOS13/Controllers/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "registerPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "592DE637-6C7D-4568-B073-853FD10F3567 - 6e81a17f106a326f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Flash_Chat_iOS13.RegisterViewController.registerPressed(__C.UIButton) -&gt; ()"
+                  moduleName = "Flash Chat iOS13"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aaraizwasim/Documents/GitHub/Flash-Chat-iOS13/Flash%20Chat%20iOS13/Controllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "592DE637-6C7D-4568-B073-853FD10F3567 - 6e81a17f106a322d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Flash_Chat_iOS13.RegisterViewController.registerPressed(__C.UIButton) -&gt; ()"
+                  moduleName = "Flash Chat iOS13"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aaraizwasim/Documents/GitHub/Flash-Chat-iOS13/Flash%20Chat%20iOS13/Controllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "592DE637-6C7D-4568-B073-853FD10F3567 - 6e81a17f106a322d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Flash_Chat_iOS13.RegisterViewController.registerPressed(__C.UIButton) -&gt; ()"
+                  moduleName = "Flash Chat iOS13"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aaraizwasim/Documents/GitHub/Flash-Chat-iOS13/Flash%20Chat%20iOS13/Controllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F1D9218-C4D1-4CB2-8E7C-16E6AB7B1A63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flash Chat iOS13/Controllers/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "registerPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F1D9218-C4D1-4CB2-8E7C-16E6AB7B1A63 - 6e81a17f106a324e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Flash_Chat_iOS13.RegisterViewController.registerPressed(__C.UIButton) -&gt; ()"
+                  moduleName = "Flash Chat iOS13"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aaraizwasim/Documents/GitHub/Flash-Chat-iOS13/Flash%20Chat%20iOS13/Controllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "2F1D9218-C4D1-4CB2-8E7C-16E6AB7B1A63 - 6e81a17f106a324e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Flash_Chat_iOS13.RegisterViewController.registerPressed(__C.UIButton) -&gt; ()"
+                  moduleName = "Flash Chat iOS13"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aaraizwasim/Documents/GitHub/Flash-Chat-iOS13/Flash%20Chat%20iOS13/Controllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
